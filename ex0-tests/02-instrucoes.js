@@ -1,4 +1,4 @@
-console.log('INSTRUÇÕES CONDICIONAIS "IF e ELSE"');
+console.log('INSTRUÇÕES CONDICIONAIS "IF...ELSE"');
 
 var n = 4;
 
@@ -58,9 +58,41 @@ switch (mes) {
 console.log('');
 console.log('INSTRUÇÃO DE LAÇO "WHILE"');
 
-var count = 0;
+var contador = 0;
 
-while (count <= 10) {
-    console.log('The value of the count variable is:', count)
-    count++;
+while (contador < 10) {
+    console.log('The value of the contador variable is:', contador)
+    contador++;
 }
+//
+console.log('');
+console.log('INSTRUÇÃO DE LAÇO "DO...WHILE"');
+
+var contador = 0;
+
+ do {
+    console.log('The value of the contador variable is:', contador)
+    contador++;
+ } while (contador < 10);
+ //
+console.log('');
+console.log('INSTRUÇÃO DE LAÇO "FOR"');
+
+var contador = 0;
+
+for (contador = 0; contador < 10; contador++)
+console.log('The value of the contador variable is:', contador);
+ //
+ console.log('');
+ console.log('INSTRUÇÃO DE LAÇO "FOR...IN"');
+ 
+ let fruta = {
+    nome: "Banana",
+    preco: 4.99,
+    unidade: 1
+ }
+
+ for (let valor in fruta) {
+    console.log(fruta[valor]);
+ }
+ 
