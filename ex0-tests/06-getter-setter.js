@@ -24,4 +24,3 @@ console.log(animal.getDados);
 animal.setIdade = '44';
 
 console.log(animal.getDados);
-
