@@ -1,20 +1,15 @@
-@media (max-width: 990px) {
+@media (max-width: 250px) {
     .container {
-        width: 800px;
+        height: 600px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        border-color: 2px red;
     }
 
-    .main_image {
-        border-radius: 10px;
-        background-image: url('../images/senna.jpg');
-        width: 800px;
-        height: 532px;
-        background-size: cover;
-        background-position: center center;
-    }
-
-    .images img {
-        width: 140px;
-        height: 70px;
-        border-radius: 5px;
+    h1 {
+        font-size: 20px;
     }
 }
