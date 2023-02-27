@@ -55,3 +55,7 @@ function hypotenuse (a, b) {
 console.log('Resultado: ', hypotenuse(2, 3));
 
 console.log('');
+console.log('-----------------------------------------------------------------------------');
+console.log('');
+//
+//

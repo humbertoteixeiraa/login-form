@@ -54,3 +54,12 @@ console.log('Resultado: ', );
 console.log('');
 console.log('-----------------------------------------------------------------------------');
 console.log('');
+
+
+function soma (x, y) {
+    console.log('Número de argumentos: ', arguments.length)
+    return x + y
+}
+
+
+console.log('Resultado: ', soma(10,5));
