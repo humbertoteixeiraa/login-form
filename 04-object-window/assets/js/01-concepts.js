@@ -53,8 +53,20 @@ console.log('03 - Dialog Boxes:');
 console.log('');
 //
 //
+console.log('04 - Windows and frames:');
 
+//window.open('https://linktree-humberto.netlify.app/index.html');
 
+function popup() {
+    window.open('https://linktree-humberto.netlify.app/index.html', 'LinkTree', 'width=400, height=750, status=yes, resizable=yes');
+
+}
+
+//window.setTimeout(popup, 3000);
+
+console.log('');
+//
+//
 
 ('------------------------------------------------------------');
 console.log('');
