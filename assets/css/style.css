@@ -1,33 +1,43 @@
-.row [class^=col-], .row .col {
-    background-color: #ddd;
-    border: 1px solid #ccc;
-    height: 50px;
-}
-.row {
-    background-color: #ff9999;
-    padding: 10px;
-    height: 200px;
-}
-
-.avatar {
-    width: 50px;
-    height: 50px;
-}
-
-.media {
-    background-color: #eeee;
-    border-bottom: 1px solid black;
-}
-
-.test {
-    width: 300px;
-    height: 300px;
-    border: 1px solid #000;
-}
-
-#area {
-    border: 1px solid #000;
-    padding: 20px;
+body {
     background-color: #eee;
-    width: fit-content;
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.area {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.form-control {
+    margin-bottom: 5px;
+}
+
+.remember {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    color: #999;
+
+    padding: 20px;
 }
