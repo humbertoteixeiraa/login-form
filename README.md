@@ -1,3 +1,3 @@
 # login-form
-
-* Design of a Login Form created in the BOOTSTRAP 4 Course by B7Web.
+* Objective: work bootstrap concepts.
+* Technologies used: HTML5, CSS3, JavaScript and Bootstrap.
